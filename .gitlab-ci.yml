@@ -1,0 +1,41 @@
+# All available Hugo versions are listed here: https://gitlab.com/pages/hugo/container_registry
+#image: registry.gitlab.com/pages/hugo:latest
+#image: debian:buster-slim
+image: rocker/tidyverse
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+#test:
+#  script:
+#  - hugo
+#  except:
+#  - master
+
+before_script:
+#  - apt-get update && apt-get -y install pandoc r-base
+#  - apt-get update && apt-get -y install pandoc
+  - R -e "install.packages('blogdown', repos='http://cran.rstudio.com')"
+  - R -e "install.packages('RefManageR', repos='http://cran.rstudio.com')"
+  - R -e "install.packages('here', repos='http://cran.rstudio.com')"
+  - R -e "blogdown::install_hugo()"
+
+pages:
+  script:
+  - R -e "source('zotero_to_academic.R')"
+  - R -e "blogdown::build_site()"
+  - mv public tempdir
+  - mkdir public
+  - cp -r tempdir public
+  - mv public/tempdir public/public
+  - cp redirection-page.txt public/index.html
+  #- mkdir public/personal-website
+  #- cp -r tempdir public/personal-website
+  #- mv public/personal-website/tempdir public/personal-website/public
+  - ls public/public
+  #  - hugo
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

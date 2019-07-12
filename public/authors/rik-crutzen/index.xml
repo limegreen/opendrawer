@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rik Crutzen on Gjalt-Jorn Peters&#39; personal website</title>
+    <link>/personal-website/public/authors/rik-crutzen/</link>
+    <description>Recent content in Rik Crutzen on Gjalt-Jorn Peters&#39; personal website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/personal-website/public/authors/rik-crutzen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Establishing determinant importance using CIBER: an introduction and tutorial</title>
+      <link>/personal-website/public/publication/peters_establishing_2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/publication/peters_establishing_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Establishing determinant importance using CIBER: an introduction and tutorial</title>
+      <link>/personal-website/public/publication/peters_establishing_2018.nl/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/publication/peters_establishing_2018.nl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Confidence Interval-Based Estimation of Relevance to select social-cognitive determinants for behaviour change interventions</title>
+      <link>/personal-website/public/publication/crutzen_using_2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/publication/crutzen_using_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Confidence Interval-Based Estimation of Relevance to select social-cognitive determinants for behaviour change interventions</title>
+      <link>/personal-website/public/publication/crutzen_using_2017.nl/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/publication/crutzen_using_2017.nl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

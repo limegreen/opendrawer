@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gjalt-Jorn Peters&#39; persoonlijke website on Gjalt-Jorn Peters&#39; persoonlijke website</title>
+    <link>/personal-website/public/nl/</link>
+    <description>Recent content in Gjalt-Jorn Peters&#39; persoonlijke website on Gjalt-Jorn Peters&#39; persoonlijke website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy;</copyright>
+    <lastBuildDate>Tue, 19 Mar 2019 00:00:00 +0100</lastBuildDate>
+    <atom:link href="/personal-website/public/nl/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Acyclic Behavior Change Diagrams</title>
+      <link>/personal-website/public/nl/tutorial/abcd/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/personal-website/public/nl/tutorial/abcd/</guid>
+      <description>&lt;p&gt;Om te leren over Acyclic Behavior Change Diagrams, zie:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://r-packages.gitlab.io/behaviorchange/articles/abcd-laagdrempelige_nederlandse_uitleg.html&#34; target=&#34;_blank&#34;&gt;Een algemene introductie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sciencer.netlify.com/2019/02/een-voorbeeld-van-de-abcd-in-de-dagelijkse-praktijk-van-interventie-ontwikkeling/&#34; target=&#34;_blank&#34;&gt;Een blog post die zich richt op praktische toepassing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://r-packages.gitlab.io/behaviorchange/articles/abcd.html&#34; target=&#34;_blank&#34;&gt;Een Engelstalige vignette&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Confidence Interval-Based Estimation of Relevance</title>
+      <link>/personal-website/public/nl/tutorial/ciber/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/personal-website/public/nl/tutorial/ciber/</guid>
+      <description>&lt;p&gt;Om te leren over Confidence Interval-Based Estimation of Relevance (CIBER) hebben we:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.3389/fpubh.2017.00165&#34; target=&#34;_blank&#34;&gt;Het artikel in Frontiers in Public Health&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doi.org/10.31234/osf.io/5wjy4&#34; target=&#34;_blank&#34;&gt;Het artikel in de  European Health Psychologist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Establishing determinant importance using CIBER: an introduction and tutorial</title>
+      <link>/personal-website/public/nl/publication/peters_establishing_2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/nl/publication/peters_establishing_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Confidence Interval-Based Estimation of Relevance to select social-cognitive determinants for behaviour change interventions</title>
+      <link>/personal-website/public/nl/publication/crutzen_using_2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/nl/publication/crutzen_using_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Academy of Behavior Change</title>
+    <link>/website/en/authors/</link>
+    <description>Recent content in Authors on Academy of Behavior Change</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;</copyright>
+    
+	<atom:link href="/website/en/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gjalt-Jorn Ygram Peters</title>
+      <link>/website/en/authors/gjalt-jorn-ygram-peters/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/website/en/authors/gjalt-jorn-ygram-peters/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Judith Noijen</title>
+      <link>/website/en/authors/judith-noijen/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/website/en/authors/judith-noijen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rik Crutzen</title>
+      <link>/website/en/authors/rik-crutzen/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/website/en/authors/rik-crutzen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

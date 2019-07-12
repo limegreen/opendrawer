@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Academy of Behavior Change</title>
+    <link>/website/en/tutorial/</link>
+    <description>Recent content in Tutorials on Academy of Behavior Change</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;</copyright>
+    <lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/website/en/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acyclic Behavior Change Diagrams</title>
+      <link>/website/en/tutorial/abcd/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/website/en/tutorial/abcd/</guid>
+      <description>For getting started with Acyclic Behavior Change Diagrams, we have:
+ The English vignette A Dutch introduction A Dutch blog post geared towards practical use  </description>
+    </item>
+    
+    <item>
+      <title>Confidence Interval-Based Estimation of Relevance</title>
+      <link>/website/en/tutorial/ciber/</link>
+      <pubDate>Tue, 19 Mar 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/website/en/tutorial/ciber/</guid>
+      <description>To get started with Confidence Interval-Based Estimation of Relevance (CIBER), we have:
+ The article in Frontiers in Public Health The article in the European Health Psychologist  </description>
+    </item>
+    
+  </channel>
+</rss>

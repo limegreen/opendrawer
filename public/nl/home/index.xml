@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Gjalt-Jorn Peters&#39; persoonlijke website</title>
+    <link>/personal-website/public/nl/home/</link>
+    <description>Recent content in Homes on Gjalt-Jorn Peters&#39; persoonlijke website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&amp;copy;</copyright>
+    
+	<atom:link href="/personal-website/public/nl/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Gjalt-Jorn Peters</title>
+      <link>/personal-website/public/nl/home/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/nl/home/hero/</guid>
+      <description>Personal website
+Dit is de persoonlijke website van Gjalt-Jorn Peters. Het is eigenlijk gewoon een verzameling van links naar andere websites.
+ Star</description>
+    </item>
+    
+    <item>
+      <title>Projecten</title>
+      <link>/personal-website/public/nl/home/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/nl/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>/personal-website/public/nl/home/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/personal-website/public/nl/home/publications/</guid>
+      <description> Quickly discover relevant content by filtering publications.
+  </description>
+    </item>
+    
+  </channel>
+</rss>
