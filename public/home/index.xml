@@ -37,12 +37,7 @@ This is the personal website of Gjalt-Jorn Peters. It&amp;rsquo;s basically a co
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/personal-website/public/home/demo/</guid>
-      <description>Welcome to the personal demo of Academic. Other demos available include:
- Project Demo (Academic&amp;rsquo;s actual site)  Over 100,000 Amazing Websites have Already Been Built with Academic
-Join the Most Empowered Hugo Community
- This homepage section is an example of adding elements to the Blank widget.
-Backgrounds can be applied to any section. Here, the background option is set give an image parallax effect.
-  </description>
+      <description>{{ range $.Site.Data.data }}  {{ .data_declaration.id }} - {{ .data_declaration.sharerName }}  {{ end }}</description>
     </item>
     
     <item>
