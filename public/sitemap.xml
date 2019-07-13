@@ -157,14 +157,6 @@
     
     <url>
     
-      <loc>/nectar/public/data-views/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/nectar/public/overview/</loc>
     </url>
     
@@ -211,13 +203,6 @@
       <loc>/nectar/public/</loc>
       <lastmod>2030-06-01T13:00:00+02:00</lastmod>
       <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/nectar/public/data-views/overview/</loc>
     </url>
     
   
