@@ -1,0 +1,21 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ partial "page_header.html" . }}
+
+<h4>Declared data</h4>
+
+<table style="width:90%">
+{{ range $.Site.Data.data }}
+   <tr>
+    <td>{{ .data_declaration.id }}</td>
+    <td>{{ .data_declaration.sharerName }}</td>
+    <td>{{ .data_declaration.postDate }}</td>
+    <td>{{ .data_declaration.label }}</td>
+    <td>{{ .data_declaration.description }}</td>
+  </tr>
+{{ end }}
+</table>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

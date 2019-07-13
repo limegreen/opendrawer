@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>/personal-website/public/talk/example/</loc>
+      <loc>/nectar/public/talk/example/</loc>
       <lastmod>2030-06-01T13:00:00+02:00</lastmod>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
     
-      <loc>/personal-website/public/tutorial/abcd/</loc>
+      <loc>/nectar/public/tutorial/abcd/</loc>
       <lastmod>2019-03-19T00:00:00+01:00</lastmod>
     </url>
     
@@ -20,7 +20,7 @@
     
     <url>
     
-      <loc>/personal-website/public/tutorial/ciber/</loc>
+      <loc>/nectar/public/tutorial/ciber/</loc>
       <lastmod>2019-03-19T00:00:00+01:00</lastmod>
     </url>
     
@@ -28,7 +28,7 @@
     
     <url>
     
-      <loc>/personal-website/public/post/jupyter/</loc>
+      <loc>/nectar/public/post/jupyter/</loc>
       <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -36,7 +36,7 @@
     
     <url>
     
-      <loc>/personal-website/public/tutorial/</loc>
+      <loc>/nectar/public/tutorial/</loc>
       <lastmod>2018-09-09T00:00:00+02:00</lastmod>
     </url>
     
@@ -44,7 +44,15 @@
     
     <url>
     
-      <loc>/personal-website/public/publication/peters_establishing_2018/</loc>
+      <loc>/nectar/public/privacy/</loc>
+      <lastmod>2018-06-28T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/nectar/public/publication/peters_establishing_2018/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -52,7 +60,7 @@
     
     <url>
     
-      <loc>/personal-website/public/publication/peters_establishing_2018.nl/</loc>
+      <loc>/nectar/public/publication/peters_establishing_2018.nl/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -60,7 +68,7 @@
     
     <url>
     
-      <loc>/personal-website/public/publication/crutzen_using_2017/</loc>
+      <loc>/nectar/public/publication/crutzen_using_2017/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,7 +76,7 @@
     
     <url>
     
-      <loc>/personal-website/public/publication/crutzen_using_2017.nl/</loc>
+      <loc>/nectar/public/publication/crutzen_using_2017.nl/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -76,7 +84,7 @@
     
     <url>
     
-      <loc>/personal-website/public/project/external-project/</loc>
+      <loc>/nectar/public/project/external-project/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -84,7 +92,7 @@
     
     <url>
     
-      <loc>/personal-website/public/project/internal-project/</loc>
+      <loc>/nectar/public/project/internal-project/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
     </url>
     
@@ -92,7 +100,7 @@
     
     <url>
     
-      <loc>/personal-website/public/post/getting-started/</loc>
+      <loc>/nectar/public/post/getting-started/</loc>
       <lastmod>2018-01-13T00:00:00+01:00</lastmod>
     </url>
     
@@ -100,14 +108,14 @@
     
     <url>
     
-      <loc>/personal-website/public/author/admin/</loc>
+      <loc>/nectar/public/author/admin/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/personal-website/public/publication_types/2/</loc>
+      <loc>/nectar/public/publication_types/2/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -116,7 +124,7 @@
     
     <url>
     
-      <loc>/personal-website/public/tags/academic/</loc>
+      <loc>/nectar/public/tags/academic/</loc>
       <lastmod>2018-01-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -125,7 +133,7 @@
     
     <url>
     
-      <loc>/personal-website/public/author/</loc>
+      <loc>/nectar/public/author/</loc>
       <priority>0</priority>
     </url>
     
@@ -133,7 +141,7 @@
     
     <url>
     
-      <loc>/personal-website/public/authors/</loc>
+      <loc>/nectar/public/authors/</loc>
       <priority>0</priority>
     </url>
     
@@ -141,7 +149,7 @@
     
     <url>
     
-      <loc>/personal-website/public/categories/</loc>
+      <loc>/nectar/public/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -149,7 +157,22 @@
     
     <url>
     
-      <loc>/personal-website/public/tags/deep-learning/</loc>
+      <loc>/nectar/public/data-views/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/nectar/public/overview/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/nectar/public/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -158,7 +181,7 @@
     
     <url>
     
-      <loc>/personal-website/public/tags/demo/</loc>
+      <loc>/nectar/public/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -167,7 +190,25 @@
     
     <url>
     
-      <loc>/personal-website/public/</loc>
+      <loc>/nectar/public/authors/gjalt-jorn-ygram-peters/</loc>
+      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/nectar/public/authors/judith-noijen/</loc>
+      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/nectar/public/</loc>
       <lastmod>2030-06-01T13:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -176,25 +217,14 @@
     
     <url>
     
-      <loc>/personal-website/public/authors/gjalt-jorn-ygram-peters/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
+      <loc>/nectar/public/data-views/overview/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/personal-website/public/authors/judith-noijen/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/personal-website/public/post/</loc>
+      <loc>/nectar/public/post/</loc>
       <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -202,7 +232,7 @@
     
     <url>
     
-      <loc>/personal-website/public/project/</loc>
+      <loc>/nectar/public/project/</loc>
       <lastmod>2016-04-27T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -211,14 +241,14 @@
     
     <url>
     
-      <loc>/personal-website/public/publication/_index.nl/</loc>
+      <loc>/nectar/public/publication/_index.nl/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/personal-website/public/publication_types/</loc>
+      <loc>/nectar/public/publication_types/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -227,7 +257,7 @@
     
     <url>
     
-      <loc>/personal-website/public/publication/</loc>
+      <loc>/nectar/public/publication/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -235,7 +265,7 @@
     
     <url>
     
-      <loc>/personal-website/public/talk/</loc>
+      <loc>/nectar/public/talk/</loc>
       <lastmod>2030-06-01T13:00:00+02:00</lastmod>
     </url>
     
@@ -243,7 +273,7 @@
     
     <url>
     
-      <loc>/personal-website/public/authors/rik-crutzen/</loc>
+      <loc>/nectar/public/authors/rik-crutzen/</loc>
       <lastmod>2018-01-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -252,7 +282,7 @@
     
     <url>
     
-      <loc>/personal-website/public/slides/</loc>
+      <loc>/nectar/public/slides/</loc>
       <priority>0</priority>
     </url>
     
@@ -260,14 +290,14 @@
     
     <url>
     
-      <loc>/personal-website/public/slides/example-slides/</loc>
+      <loc>/nectar/public/slides/example-slides/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/personal-website/public/tags/</loc>
+      <loc>/nectar/public/tags/</loc>
       <lastmod>2018-01-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -276,7 +306,7 @@
     
     <url>
     
-      <loc>/personal-website/public/authors/admin/</loc>
+      <loc>/nectar/public/authors/admin/</loc>
       <lastmod>2019-02-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

@@ -4,10 +4,10 @@ widget = "hero"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Gjalt-Jorn Peters"
+title = "Join the NECTAR initiative"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "rotated-g.svg"
+hero_media = "nectar-logo-v1.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -32,11 +32,11 @@ hero_media = "rotated-g.svg"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-#[cta]
-#  url = "tutorial/"
-#  label = "Get Started"
-#  icon_pack = "fas"
-#  icon = "download"
+[cta]
+  url = "overview/"
+  label = "Look at declared datasets"
+  icon_pack = "fas"
+  icon = "download"
   
 #[cta_alt]
 #  url = "https://sourcethemes.com/academic/"
@@ -47,10 +47,11 @@ hero_media = "rotated-g.svg"
 #  label = ""
 #'<a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release <!-- V --></a>'
 +++
-<span style="color:#002f5eff">
-**Personal website**
 
-This is the personal website of Gjalt-Jorn Peters. It's basically a collection of links to other websites.
+<span style="color:#002f5eff">
+**Join**
+
+Bla bla bla
 
 </span>
 <!-- span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span -->

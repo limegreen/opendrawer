@@ -6,9 +6,10 @@
 widget = "blank"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
+layout = "data-overview"
 
 # Note: a full width section format can be enabled by commenting out the `title` and `subtitle` with a `#`.
-title = "Demos"
+title = "NECTAR"
 subtitle = ""
 
 [design]
@@ -43,8 +44,4 @@ subtitle = ""
  css_class = ""
 +++
 
-{{ range $.Site.Data.data }}
-   <ul>
-    <li>{{ .data_declaration.id }} - {{ .data_declaration.sharerName }}</li>
-  </ul>
-{{ end }}
+NECTAR is ... Bla bla... Etc. More background. Details, tedious details.

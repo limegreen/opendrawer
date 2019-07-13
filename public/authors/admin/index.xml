@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>admin on Gjalt-Jorn Peters&#39; personal website</title>
-    <link>/personal-website/public/authors/admin/</link>
-    <description>Recent content in admin on Gjalt-Jorn Peters&#39; personal website</description>
+    <title>admin on NECTAR</title>
+    <link>/nectar/public/authors/admin/</link>
+    <description>Recent content in admin on NECTAR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;</copyright>
     <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/personal-website/public/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/nectar/public/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/personal-website/public/post/jupyter/</link>
+      <link>/nectar/public/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/post/jupyter/</guid>
+      <guid>/nectar/public/post/jupyter/</guid>
       <description>from IPython.core.display import Image Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)  print(&amp;quot;Welcome to Academic!&amp;quot;)  Welcome to Academic!  Install Python and Jupyter Install Anaconda which includes Python 3 and Jupyter notebook.
 Otherwise, for advanced users, install Jupyter notebook with pip3 install jupyter.
 Create a new blog post as usual Run the following commands in your Terminal, substituting &amp;lt;MY_WEBSITE_FOLDER&amp;gt; and my-post with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:</description>
@@ -25,10 +25,10 @@ Create a new blog post as usual Run the following commands in your Terminal, sub
     
     <item>
       <title>Academic: the website designer for Hugo</title>
-      <link>/personal-website/public/post/getting-started/</link>
+      <link>/nectar/public/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/personal-website/public/post/getting-started/</guid>
+      <guid>/nectar/public/post/getting-started/</guid>
       <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
 Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
  View the documentation Ask a question Request a feature or report a bug Updating?</description>
@@ -36,10 +36,10 @@ Follow our easy step by step guide to learn how to build your own free website w
     
     <item>
       <title></title>
-      <link>/personal-website/public/author/admin/</link>
+      <link>/nectar/public/author/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/author/admin/</guid>
+      <guid>/nectar/public/author/admin/</guid>
       <description>Gjalt-Jorn Peters was born in Sneek, Fryslân, the Netherlands, European Union, at the 26th of October 1981. He currently lives in Maastricht, Limburg, the Netherlands, European Union.</description>
     </item>
     

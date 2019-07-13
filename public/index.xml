@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gjalt-Jorn Peters&#39; personal website on Gjalt-Jorn Peters&#39; personal website</title>
-    <link>/personal-website/public/</link>
-    <description>Recent content in Gjalt-Jorn Peters&#39; personal website on Gjalt-Jorn Peters&#39; personal website</description>
+    <title>NECTAR on NECTAR</title>
+    <link>/nectar/public/</link>
+    <description>Recent content in NECTAR on NECTAR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0200</lastBuildDate>
-    <atom:link href="/personal-website/public/" rel="self" type="application/rss+xml" />
+    <atom:link href="/nectar/public/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Example Talk</title>
-      <link>/personal-website/public/talk/example/</link>
+      <link>/nectar/public/talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0200</pubDate>
       
-      <guid>/personal-website/public/talk/example/</guid>
+      <guid>/nectar/public/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
@@ -38,10 +38,10 @@
     
     <item>
       <title>Acyclic Behavior Change Diagrams</title>
-      <link>/personal-website/public/tutorial/abcd/</link>
+      <link>/nectar/public/tutorial/abcd/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0100</pubDate>
       
-      <guid>/personal-website/public/tutorial/abcd/</guid>
+      <guid>/nectar/public/tutorial/abcd/</guid>
       <description>&lt;p&gt;For getting started with Acyclic Behavior Change Diagrams, we have:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -54,10 +54,10 @@
     
     <item>
       <title>Confidence Interval-Based Estimation of Relevance</title>
-      <link>/personal-website/public/tutorial/ciber/</link>
+      <link>/nectar/public/tutorial/ciber/</link>
       <pubDate>Tue, 19 Mar 2019 00:00:00 +0100</pubDate>
       
-      <guid>/personal-website/public/tutorial/ciber/</guid>
+      <guid>/nectar/public/tutorial/ciber/</guid>
       <description>&lt;p&gt;To get started with Confidence Interval-Based Estimation of Relevance (CIBER), we have:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -69,10 +69,10 @@
     
     <item>
       <title>Display Jupyter Notebooks with Academic</title>
-      <link>/personal-website/public/post/jupyter/</link>
+      <link>/nectar/public/post/jupyter/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/post/jupyter/</guid>
+      <guid>/nectar/public/post/jupyter/</guid>
       <description>
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
@@ -131,56 +131,66 @@ rm Untitled.md
     </item>
     
     <item>
+      <title>Privacy Policy</title>
+      <link>/nectar/public/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
+      
+      <guid>/nectar/public/privacy/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Establishing determinant importance using CIBER: an introduction and tutorial</title>
-      <link>/personal-website/public/publication/peters_establishing_2018/</link>
+      <link>/nectar/public/publication/peters_establishing_2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/publication/peters_establishing_2018/</guid>
+      <guid>/nectar/public/publication/peters_establishing_2018/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Establishing determinant importance using CIBER: an introduction and tutorial</title>
-      <link>/personal-website/public/publication/peters_establishing_2018.nl/</link>
+      <link>/nectar/public/publication/peters_establishing_2018.nl/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/publication/peters_establishing_2018.nl/</guid>
+      <guid>/nectar/public/publication/peters_establishing_2018.nl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Confidence Interval-Based Estimation of Relevance to select social-cognitive determinants for behaviour change interventions</title>
-      <link>/personal-website/public/publication/crutzen_using_2017/</link>
+      <link>/nectar/public/publication/crutzen_using_2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/publication/crutzen_using_2017/</guid>
+      <guid>/nectar/public/publication/crutzen_using_2017/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Confidence Interval-Based Estimation of Relevance to select social-cognitive determinants for behaviour change interventions</title>
-      <link>/personal-website/public/publication/crutzen_using_2017.nl/</link>
+      <link>/nectar/public/publication/crutzen_using_2017.nl/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/publication/crutzen_using_2017.nl/</guid>
+      <guid>/nectar/public/publication/crutzen_using_2017.nl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>External Project</title>
-      <link>/personal-website/public/project/external-project/</link>
+      <link>/nectar/public/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/personal-website/public/project/external-project/</guid>
+      <guid>/nectar/public/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>/personal-website/public/project/internal-project/</link>
+      <link>/nectar/public/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/personal-website/public/project/internal-project/</guid>
+      <guid>/nectar/public/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
@@ -195,10 +205,10 @@ rm Untitled.md
     
     <item>
       <title>Academic: the website designer for Hugo</title>
-      <link>/personal-website/public/post/getting-started/</link>
+      <link>/nectar/public/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/personal-website/public/post/getting-started/</guid>
+      <guid>/nectar/public/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.&lt;/p&gt;
@@ -271,8 +281,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -298,8 +308,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -325,8 +335,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -352,8 +362,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-cupcake_hueba8cfa8cfbc7543924fcbf387a99e92_23986_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-cupcake_hueba8cfa8cfbc7543924fcbf387a99e92_23986_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -379,8 +389,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -406,8 +416,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -433,8 +443,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
     
@@ -460,8 +470,8 @@ rm Untitled.md
       
     
     
-  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
-  &lt;img src=&#34;/personal-website/public/personal-website/public/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;/nectar/public/nectar/public/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
   &lt;/a&gt;
   
 
@@ -576,195 +586,32 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>Publicaties</title>
-      <link>/personal-website/public/publication/_index.nl/</link>
+      <title>Declared Data Overview</title>
+      <link>/nectar/public/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/publication/_index.nl/</guid>
-      <description></description>
+      <guid>/nectar/public/overview/</guid>
+      <description>&lt;p&gt;This is an overview of declared datasets.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Slides</title>
-      <link>/personal-website/public/slides/example-slides/</link>
+      <title>NECTAR</title>
+      <link>/nectar/public/data-views/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/slides/example-slides/</guid>
-      <description>
-
-&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Code block:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-
-&lt;p&gt;Block math:&lt;/p&gt;
-
-&lt;p&gt;$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  Three
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+      <guid>/nectar/public/data-views/overview/</guid>
+      <description>&lt;p&gt;Some additional text in the markdown file goes here.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Publicaties</title>
+      <link>/nectar/public/publication/_index.nl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nectar/public/publication/_index.nl/</guid>
+      <description></description>
     </item>
     
   </channel>

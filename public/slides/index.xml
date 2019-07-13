@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slides on Gjalt-Jorn Peters&#39; personal website</title>
-    <link>/personal-website/public/slides/</link>
-    <description>Recent content in Slides on Gjalt-Jorn Peters&#39; personal website</description>
+    <title>Slides on NECTAR</title>
+    <link>/nectar/public/slides/</link>
+    <description>Recent content in Slides on NECTAR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy;</copyright>
     
-	<atom:link href="/personal-website/public/slides/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/nectar/public/slides/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Slides</title>
-      <link>/personal-website/public/slides/example-slides/</link>
+      <link>/nectar/public/slides/example-slides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/personal-website/public/slides/example-slides/</guid>
+      <guid>/nectar/public/slides/example-slides/</guid>
       <description>Welcome to Slides Academic
 Features  Efficiently write slides in Markdown 3-in-1: Create, Present, and Publish your slides Supports speaker notes Mobile friendly slides  Controls  Next: Right Arrow or Space Previous: Left Arrow Start: Home Finish: End Overview: Esc Speaker notes: S Fullscreen: F Zoom: Alt + Click PDF Export: E  Code Highlighting Inline code: variable
 Code block:
