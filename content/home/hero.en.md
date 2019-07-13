@@ -49,9 +49,8 @@ hero_media = "nectar-logo-v1.png"
 +++
 
 <span style="color:#002f5eff">
-**Join**
 
-Bla bla bla
+Bla bla bla. Bla bla. Yada yada.
 
 </span>
 <!-- span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span -->

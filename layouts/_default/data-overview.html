@@ -3,10 +3,20 @@
 
 {{ partial "page_header.html" . }}
 
-<h4>Declared data</h4>
+<h4 style="margin: 1em 4em;">Declared data</h4>
 
-<table style="width:90%">
-{{ range $.Site.Data.data }}
+<table style="width:90%; margin:1em auto;">
+  <thead>
+    <tr>
+      <th>Identifier</th>
+      <th>Name of sharer</th>
+      <th>Posting date</th>
+      <th>Data label</th>
+      <th>Data description</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ range $.Site.Data.data }}
    <tr>
     <td>{{ .data_declaration.id }}</td>
     <td>{{ .data_declaration.sharerName }}</td>
@@ -14,7 +24,8 @@
     <td>{{ .data_declaration.label }}</td>
     <td>{{ .data_declaration.description }}</td>
   </tr>
-{{ end }}
+  {{ end }}
+  </tbody>
 </table>
 
 {{ partial "footer_container.html" . }}
