@@ -1,18 +1,15 @@
-#
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
+library(shiny)
 
-## Only run examples in interactive R sessions
-if (interactive()) {
+# create the ui
+ui <- fluidPage(
   
-  ui <- fluidPage(
+  # Application title
+  titlePanel("Free the Data (or SPRING or NECTAR)"),
+  mainPanel( 
+    
+    # each of the sections of code below create a text input box with a title
     textInput("postdate", "Date uploaded", "Date in ISO format (2019-07-31)"),
-    verbatimTextOutput("postdate"),
+    verbatimTextOutput("postdate"), # this line simply displays what has been inputted into the text field
     
     textInput("name", "Name", "Please type your name here"),
     verbatimTextOutput("name"),
@@ -25,28 +22,23 @@ if (interactive()) {
     
     textInput("description", "Description", "a description of the data"),
     verbatimTextOutput("description")
-    
-   #tableOutput('table')
-    
-    
   )
-  server <- function(input, output) {
-    output$email <- email <- renderText({ input$email })
-    output$postdate <- postdate <- renderText({ input$postdate })
-    output$name <- name <- renderText({ input$name })
-    output$label <- label <- renderText({ input$label })
-    output$description <- description <- renderText({ input$description })
-    
-    #output$table <- renderTable(c(paste(email),paste(postdate),paste(name),paste(label),paste(description)))
-    
-    # output$table <- renderTable(
-    #   rbind(c("email","postdate","name","label","description"),
-    #         c(output$email,output$postdate,output$name,output$label,output$description)))
-    # 
-    
-  }
-  shinyApp(ui, server)
+)
+
+# Define server logic required to draw a histogram
+server <- function(input, output) {
+  
+  # The lines below create objects from the input
+  output$email <- email <- renderText({ input$email })
+  output$postdate <- postdate <- renderText({ input$postdate })
+  output$name <- name <- renderText({ input$name })
+  output$label <- label <- renderText({ input$label })
+  output$description <- description <- renderText({ input$description })
+  
+  
+  
 }
+
 # Run the application 
 shinyApp(ui = ui, server = server)
 
