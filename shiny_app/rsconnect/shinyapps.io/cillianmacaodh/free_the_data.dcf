@@ -5,8 +5,8 @@ account: cillianmacaodh
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1434180
-bundleId: 2569681
+bundleId: 2570846
 url: https://cillianmacaodh.shinyapps.io/free_the_data/
-when: 1573078077.40327
+when: 1573123561.95553
 asMultiple: FALSE
 asStatic: FALSE

@@ -29,7 +29,7 @@ ui <- fluidPage(
     textInput("email", "E-mail address", "type your email address here"),
     #verbatimTextOutput("email"),
     
-    textInput("label", "Data set label", "a short lable for your data"),
+    textInput("label", "Data set label", "a short label for your data"),
     #verbatimTextOutput("label"),
     
     textInput("description", "Description", "a description of the data"),
@@ -38,7 +38,7 @@ ui <- fluidPage(
     h3("Basic Table to Updtate as fields are completed"),
      tableOutput("table2")
     ,
-    h3("Table Oisplaying Object that (hopefully) will be saved to YAML"),
+    h3("Table Displaying Object that (hopefully) will be saved to YAML"),
      DT::dataTableOutput("table1")
     
   )
@@ -105,7 +105,7 @@ server <- function(input, output, session) {
                                   big_list$description))
                               colnames(a)<- c("ID","Version","Date","Name", "Email","Label", "Description")
                               a
-                              })
+                              },options = list(lengthChange = FALSE,paging = FALSE))
   
   #output$table3 <- output$table1$email
   
