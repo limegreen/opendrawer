@@ -2,6 +2,7 @@ library(shiny)
 library(foreign)
 library(purrr)
 library(dplyr)
+library(yaml)
 #library(DT)
 library("devtools")
 
@@ -22,16 +23,16 @@ ui <- fluidPage(
     
     
     textInput("version", "Version", "version"),
-    #verbatimTextOutput("postdate"),
+    #verbatimTextOutput("postDate"),
     
-    textInput("postdate", "Date uploaded", "Date in ISO format (2019-07-31)"),
-    #verbatimTextOutput("postdate"), # this line simply displays what has been inputted into the text field
+    textInput("postDate", "Date uploaded", "Date in ISO format (2019-07-31)"),
+    #verbatimTextOutput("postDate"), # this line simply displays what has been inputted into the text field
     
-    textInput("name", "Name", "Please type your name here"),
-    #verbatimTextOutput("name"),
+    textInput("sharerName", "Name", "Please type your name here"),
+    #verbatimTextOutput("sharerName"),
     
-    textInput("email", "E-mail address", "type your email address here"),
-    #verbatimTextOutput("email"),
+    textInput("sharerEmail", "E-mail address", "type your email address here"),
+    #verbatimTextOutput("sharerEmail"),
     
     textInput("label", "Data set label", "a short label for your data"),
     #verbatimTextOutput("label"),
@@ -54,31 +55,31 @@ ui <- fluidPage(
 server <- function(input, output, session) {
   
   # The lines below create objects from the input
-  output$email <-  renderText({ input$email })
-  output$postdate  <- renderText({ input$postdate })
-  output$name  <- renderText({ input$name })
+  output$sharerEmail <-  renderText({ input$sharerEmail })
+  output$postDate  <- renderText({ input$postDate })
+  output$sharerName  <- renderText({ input$sharerName })
   output$label  <- renderText({ input$label })
   output$description  <- renderText({ input$description })
   #output$full_id <-    renderText({rock::numericToBase30(as.numeric(Sys.time())*10000)})
 
   
-  #output$table <- cbind(input$email, input$postdate)
+  #output$table <- cbind(input$sharerEmail, input$postDate)
   
   # get data object
   get_list<-reactive({
 
-   # if(!exists(input$email)) return() # if no upload
+   # if(!exists(input$sharerEmail)) return() # if no upload
 
   #  check<-function(x){is.null(x) || x==""}
-    #if(check(input$email)) return()
+    #if(check(input$sharerEmail)) return()
 
     obj<-list(#data=get(input$dataset),
       #id=input$id,
       id=rock::numericToBase30(as.numeric(Sys.time())*10000),
       version=input$version,
-      postdate=input$postdate,
-      name=input$name,
-      email=input$email,
+      postDate=input$postDate,
+      sharerName=input$sharerName,
+      sharerEmail=input$sharerEmail,
       label=input$label,
       description=input$description
     )
@@ -101,7 +102,7 @@ server <- function(input, output, session) {
   output$id2 <- reactive({big_list <- get_list()
   big_list$id})
   
-  fieldsAll <- c("id", "version", "postdate", "name", "email","label","description")
+  fieldsAll <- c("id", "version", "postDate", "sharerName", "sharerEmail","label","description")
   responsesDir <- file.path("responses")
   epochTime <- function() {
     as.integer(Sys.time())
@@ -110,17 +111,17 @@ server <- function(input, output, session) {
   
   get_list_as_df<-reactive({
     
-    # if(!exists(input$email)) return() # if no upload
+    # if(!exists(input$sharerEmail)) return() # if no upload
     
     #  check<-function(x){is.null(x) || x==""}
-    #if(check(input$email)) return()
+    #if(check(input$sharerEmail)) return()
     
     # obj<-list(#data=get(input$dataset),
     #   id=input$id,
     #   version=input$version,
-    #   postdate=input$postdate,
-    #   name=input$name,
-    #   email=input$email,
+    #   postDate=input$postDate,
+    #   sharerName=input$sharerName,
+    #   sharerEmail=input$sharerEmail,
     #   label=input$label,
     #   description=input$description
     # )
@@ -152,29 +153,29 @@ server <- function(input, output, session) {
   
   output$table1 <- DT::renderDataTable({ big_list <- get_list()
                               a <- rbind(
-                                #c("id","version","date","name", "email","label", "description"),
+                                #c("id","version","date","sharerName", "sharerEmail","label", "description"),
                                 c(big_list$id,
                                   #output$full_id,
                                   big_list$version,
-                                  big_list$postdate,
-                                  big_list$name,
-                                  big_list$email,
+                                  big_list$postDate,
+                                  big_list$sharerName,
+                                  big_list$sharerEmail,
                                   big_list$label,
                                   big_list$description))
                               colnames(a)<- c("ID","Version","Date","Name", "Email","Label", "Description")
                               a
                               },options = list(lengthChange = FALSE,paging = FALSE))
   
-  #output$table3 <- output$table1$email
+  #output$table3 <- output$table1$sharerEmail
   
   output$table2 <- renderTable({ big_list <- get_list()
   a <- rbind(
-    #c("id","version","date","name", "email","label", "description"),
+    #c("id","version","date","sharerName", "sharerEmail","label", "description"),
     c(big_list$id,
       big_list$version,
-      big_list$postdate,
-      big_list$name,
-      big_list$email,
+      big_list$postDate,
+      big_list$sharerName,
+      big_list$sharerEmail,
       big_list$label,
       big_list$description))
   colnames(a)<- c("ID","Version","Date","Name", "Email","Label", "Description")
@@ -184,64 +185,33 @@ server <- function(input, output, session) {
   
   output$display_id <- renderTable({ big_list <- get_list()
   a <- rbind(
-    #c("id","version","date","name", "email","label", "description"),
-    c(big_list$id
-      # ,
-      # big_list$version,
-      # big_list$postdate,
-      # big_list$name,
-      # big_list$email,
-      # big_list$label,
-      # big_list$description
-      ))
-  colnames(a)<- c("ID"
-                  #,"Version","Date","Name", "Email","Label", "Description"
-                  )
-  #b <- a[[1]]
-  #b
+    c(big_list$id ))
+  colnames(a)<- c("ID")
   a
   })
   
- # write(output$table1, "../../table1.yml")
-  #responsesDir <- file.path("responses")
-  
-  humanTime <- function() format(Sys.time(), "%Y%m%d-%H%M%OS")
 
   
-  # humanTime <- function() renderText({big_list <- get_list()
-  # print(big_list$id)
-  # })
+  id_for_file_name <- reactive({big_list <- get_list()
+  big_list$id})
   
     
-  saveData <- function(data) {
-    fileName <- sprintf("%s_%s.csv",
-                        humanTime(),
-                        digest::digest(data))
-
-    #fileName <- sprintf("%s_%s.csv",
-    #                    output$display_id)
-
-    # fileName <- sprintf("%s_%s.csv",
-    #                  humanTime(),
-    #                  digest::digest(data))
-    # 
-    write.csv(x = data, file = file.path(responsesDir, fileName),
-              row.names = FALSE, quote = TRUE)
-  }
   
   
-  saveData2 <- function(data){
-    fileName <- sprintf("%s_%s.yml",
-                        humanTime(),
-                        digest::digest(data))
-    
-    write_yaml(as.yaml(data), file = file.path(responsesDir, fileName))
+  saveData <- function(data){
+    fileName <- sprintf("%s.yml",
+                        id_for_file_name()
+                        #,
+                        #digest::digest(data)
+                        )
+  # write_yaml(stats::setNames(list(list(id = "testId", version=1, postDate="now")), "data_declaration"), stdout())
+    write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(responsesDir, fileName))
   }
-  #write_yaml(as.yaml(df), "test2.yml")
+  
   
   # action to take when submit button is pressed
   observeEvent(input$submit, {
-    saveData2(get_list())
+    saveData(get_list())
   })
   
   
