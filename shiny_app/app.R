@@ -25,7 +25,7 @@ ui <- fluidPage(
   
   shinyjs::useShinyjs(),
   # Application title
-  titlePanel("Free the Data (or SPRING or NECTAR)"),
+  titlePanel("OpenDrawer: data declaration form"),
   mainPanel( 
     
     div(id = "form",
