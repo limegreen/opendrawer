@@ -4,7 +4,7 @@ widget = "hero"  # Do not modify this line!
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Join the NECTAR initiative"
+title = "Join the OpenDrawer initiative"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
 hero_media = "nectar-logo-v1.png"
