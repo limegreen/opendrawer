@@ -1,0 +1,12 @@
+name: free_the_data
+title: free_the_data
+username:
+account: cillianmacaodh
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1434180
+bundleId: 2600171
+url: https://cillianmacaodh.shinyapps.io/free_the_data/
+when: 1574161375.83235
+asMultiple: FALSE
+asStatic: FALSE

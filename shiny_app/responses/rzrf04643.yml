@@ -1,0 +1,10 @@
+data_declaration:
+  id: rzrf04643
+  version: '1'
+  postDate: '2019-11-19'
+  sharerName: Cillian McHugh
+  sharerEmail: sample_email@email.email
+  label: nice short label
+  description: There's loads of interesting data here, really need to describe it
+    in a bit more detail, hopefully the detail will be saved in the YAML file too...
+    fingers crossed
