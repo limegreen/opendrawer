@@ -43,4 +43,4 @@ subtitle = ""
  css_class = ""
 +++
 
-NECTAR is ... Bla bla... Etc. More background. Details, tedious details.
+OpenDrawer is ... Bla bla... Etc. More background. Details, tedious details.
