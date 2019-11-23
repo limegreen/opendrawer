@@ -98,8 +98,8 @@ zoom = 15
 # Load CSS and JS plugins
 #   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = ["custom"]
-plugins_js  = []
+plugins_css = ["jquery.modal.min", "datatables", "custom"]
+plugins_js  = ["jquery-3.4.1.slim.min", "jquery.dataTables.min", "jquery.modal.min"]
 
 ############################
 ## Advanced options       ##

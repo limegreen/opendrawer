@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link rel="stylesheet" href="../css/datatables.css"/>
+</head>
+<body>
+<script src="jquery-3.4.1.slim.min.js"></script>
+<script src="jquery.dataTables.min.js"></script>
+
+<table id="construct-overview" style="width:90%; margin:1em auto;">
+<thead><th>One</th><th>Two</th><th>Three</th></thead>
+<tr><th>cell 1</th><th>cell 2</th><th>cell 3</th></tr>
+<tr><th>cell 2</th><th>cell 4</th><th>cell 6</th></tr>
+<tr><th>cell 3</th><th>cell 5</th><th>cell 7</th></tr>
+</table>
+
+<script>
+  $(document).ready( function () {
+      $('#construct-overview').DataTable();
+  } );
+</script>
+
+</body>
+</html>

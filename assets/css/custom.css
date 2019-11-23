@@ -1,6 +1,24 @@
 
-
 section#hero h1.hero-title, section#hero div.hero-lead p {
   color: #002F5E;
 }
 
+.modal {
+  width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.data-declararation-overview-wrapper {
+  margin:1em auto;
+  width: 90%;
+}
+
+.dataTable {
+  font-size: 80%;
+  padding: 2px;
+}
+
+.dataTable td {
+  padding: 1px;
+}
