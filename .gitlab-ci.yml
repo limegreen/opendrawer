@@ -18,7 +18,7 @@ before_script:
   - R -e "install.packages('blogdown', repos='http://cran.rstudio.com')"
 #  - R -e "install.packages('RefManageR', repos='http://cran.rstudio.com')"
 #  - R -e "install.packages('here', repos='http://cran.rstudio.com')"
-  - R -e "blogdown::install_hugo()"
+  - R -e "blogdown::install_hugo(version='0.54.0')"
 
 pages:
   script:
