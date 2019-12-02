@@ -25,7 +25,7 @@ ui <- fluidPage(
   
   shinyjs::useShinyjs(),
   # Application title
-  titlePanel(HTML("<span style=\"color:white; background-color: #686868\">Open</span><span style=\"color:#0af70a; background-color: #686868\">Drawer</span> data declaration form")),
+  titlePanel(HTML("<span style=\"color:white; background-color: #686868\">&nbsp;Open</span><span style=\"color:#0af70a; background-color: #686868\">Drawer  </span> data declaration form")),
   mainPanel( 
     
     div(id = "form",
