@@ -40,7 +40,7 @@ ui <- fluidPage(
     textInput("version", "Version"),
     #verbatimTextOutput("postDate"),
     
-    textInput("postDate", "Date uploaded (in ISO format: '2019-07-31')"),
+    textInput("postDate", HTML("Date uploaded <br><i>(in ISO format: '2019-07-31')</i>")),
     #verbatimTextOutput("postDate"), # this line simply displays what has been inputted into the text field
     
     textInput("sharerName", "Name"),
@@ -49,10 +49,12 @@ ui <- fluidPage(
     textInput("sharerEmail", "E-mail address"),
     #verbatimTextOutput("sharerEmail"),
     
-    textInput("label", "Label"),
+    textInput("label", HTML("Label <br><i>(short name for project)</i>")),
     #verbatimTextOutput("label"),
     
-    textInput("description", "Description")
+    textInput("description", HTML("<b>Description<b></br> (eg - <i>In year ...., I collected ....,
+    [but I didn't end up publishing it because my hamster ate the questionnaires]. The keywords are [open science
+    and attitudes].</i>"))
     #, verbatimTextOutput("description")
     
     #h3("Basic Table to Updtate as fields are completed"),
