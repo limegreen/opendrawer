@@ -239,18 +239,10 @@ server <- function(input, output, session) {
                         )
   # write_yaml(stats::setNames(list(list(id = "testId", version=1, postDate="now")), "data_declaration"), stdout())
     write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(responsesDir, fileName))
-    path <- tempfile(pattern="opendrawer-")
-    dir.create(path)
-    opendrawer <- git2r::init(path)
-    # config(opendrawer, user.name="Bob", user.email="bob@example.org")
-    git2r::add(opendrawer, path = file.path(responsesDir, fileName))
-    git2r::commit(opendrawer, "data declaration") #breaks here. Possibly the git add is failing in the line above
-    git2r::remote_add(opendrawer, url = "https://gitlab.com/sci-ops/opendrawer.git")
-    git2r::push(opendrawer, "origin", "data/data")
-    # git2r::clone("https://gitlab.com/sci-ops/opendrawer.git", progress = FALSE)
-    # git2r::add("fileName", path = "data/data")
-    # git2r::commit(opendrawer.git, "data declaration")
-    # git2r::push(opendrawer.git, "origin")
+    repo <- git2r::repository()
+    git2r::add(repo, path = file.path(responsesDir, fileName))
+    git2r::commit(repo, "data declaration") 
+    git2r::push(repo)  #not authenticating
   }
   
   
