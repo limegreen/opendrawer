@@ -242,7 +242,8 @@ server <- function(input, output, session) {
     repo <- git2r::repository()
     git2r::add(repo, path = file.path(responsesDir, fileName))
     git2r::commit(repo, "data declaration") 
-    git2r::push(repo)  #not authenticating
+    
+    git2r::push(repo, credentials = gl.token)  #not authenticating
   }
   
   
