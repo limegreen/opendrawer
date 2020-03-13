@@ -239,11 +239,21 @@ server <- function(input, output, session) {
                         )
   # write_yaml(stats::setNames(list(list(id = "testId", version=1, postDate="now")), "data_declaration"), stdout())
     write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(responsesDir, fileName))
-    repo <- git2r::repository()
-    git2r::add(repo, path = file.path(responsesDir, fileName))
-    git2r::commit(repo, "data declaration") 
+    # cred.d <- readRDS("dtoken.RDS")
+    rdrop2::drop_auth(rdstoken = "dtoken.RDS")
+    rdrop2::drop_upload(file = file.path(responsesDir, fileName), path = "opendrawer")#, rdrop2::drop_acc(dtoken = cred.d))
     
-    git2r::push(repo, credentials = gl.token)  #not authenticating
+    # path <- tempfile(pattern="git2r-")
+    # dir.create(path)
+    # dir.create(file.path(path, responsesDir))
+    # repo <- git2r::init(path)
+    # # repo <- git2r::repository(path = "../")
+    # git2r::remote_add(repo, "opendrawer", "https://gitlab.com/sci-ops/opendrawer.git")
+    # git2r::config(repo, user.name = "Shiny App", user.email = "james.green.ul@gmail.com")
+    # git2r::add(repo, path = file.path(responsesDir, fileName))
+    # cred2 <- readRDS("gltoken.RDS")
+    # git2r::commit(repo, "data declaration")
+    # git2r::push(repo, credentials = cred2, "origin", "refs/heads/master")
   }
   
   
