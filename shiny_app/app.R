@@ -243,6 +243,9 @@ server <- function(input, output, session) {
     rdrop2::drop_auth(rdstoken = "dtoken.RDS")
     rdrop2::drop_upload(file = file.path(responsesDir, fileName), path = "opendrawer")#, rdrop2::drop_acc(dtoken = cred.d))
     
+    
+    git2r::cred_token("gltoken.RDS")
+    git2r::push(repo)
     # path <- tempfile(pattern="git2r-")
     # dir.create(path)
     # dir.create(file.path(path, responsesDir))
