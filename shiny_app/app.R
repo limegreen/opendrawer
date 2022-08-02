@@ -241,9 +241,10 @@ server <- function(input, output, session) {
                         )
   # write_yaml(stats::setNames(list(list(id = "testId", version=1, postDate="now")), "data_declaration"), stdout())
     write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(responsesDir, fileName))
-    # cred.d <- readRDS("dtoken.RDS")
-    rdrop2::drop_auth(rdstoken = "dtoken.RDS")
-    rdrop2::drop_upload(file = file.path(responsesDir, fileName), path = "opendrawer")#, rdrop2::drop_acc(dtoken = cred.d))
+    
+  # code to upload to dropbox
+    # rdrop2::drop_auth(rdstoken = "dtoken.RDS")
+    # rdrop2::drop_upload(file = file.path(responsesDir, fileName), path = "opendrawer")#, rdrop2::drop_acc(dtoken = cred.d))
     
     cred <- git2r::cred_token(token = "GITLAB_PAT")
     path <- tempfile(pattern="git2r-")
@@ -257,7 +258,7 @@ server <- function(input, output, session) {
     # git2r::add(repo, path = file.path(responsesDir, fileName))
     # writeLines("bob is cool", file.path(path, "bob.txt"))
     # git2r::add(repo = ".", path = file.path(path, "bob.txt"))
-    git2r::add(repo = ".", path = file.path(responsesDir, fileName))
+    # git2r::add(repo = ".", path = file.path(responsesDir, fileName))
     git2r::commit(message = paste("data declaration", fileName))
     git2r::push(credentials = cred)
   }
