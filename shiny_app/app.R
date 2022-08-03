@@ -247,20 +247,21 @@ server <- function(input, output, session) {
     # rdrop2::drop_upload(file = file.path(responsesDir, fileName), path = "opendrawer")#, rdrop2::drop_acc(dtoken = cred.d))
     
     cred <- git2r::cred_token(token = "GITLAB_PAT")
-    path <- tempfile(pattern="git2r-")
+    tempPath <- tempfile(pattern="git2r-")
     # dir.create(path)
     # git2r::init(path)
     # dir.create(file.path(path, responsesDir))
-    git2r::clone("https://gitlab.com/sci-ops/opendrawer.git", path, credentials = cred)
+    git2r::clone("https://gitlab.com/sci-ops/opendrawer.git", tempPath, credentials = cred)
     # # repo <- git2r::repository(path = "../")
     # git2r::remote_add(repo, "opendrawer", "https://gitlab.com/sci-ops/opendrawer.git")
     # git2r::config(repo, user.name = "Shiny App", user.email = "james.green.ul@gmail.com")
     # git2r::add(repo, path = file.path(responsesDir, fileName))
     # writeLines("bob is cool", file.path(path, "bob.txt"))
     # git2r::add(repo = ".", path = file.path(path, "bob.txt"))
-    # git2r::add(repo = ".", path = file.path(responsesDir, fileName))
-    git2r::commit(message = paste("data declaration", fileName))
-    git2r::push(credentials = cred)
+    write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(tempPath, "shiny_app", responsesDir, fileName))
+    git2r::add(repo = tempPath, path = file.path(tempPath, "shiny_app", responsesDir, fileName))
+    git2r::commit(repo = tempPath, message = paste("data declaration", fileName))
+    git2r::push(tempPath, credentials = cred)
   }
   
   
