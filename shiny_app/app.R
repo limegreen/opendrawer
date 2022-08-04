@@ -240,28 +240,27 @@ server <- function(input, output, session) {
                         #digest::digest(data)
                         )
   # write_yaml(stats::setNames(list(list(id = "testId", version=1, postDate="now")), "data_declaration"), stdout())
-    write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(responsesDir, fileName))
+    # write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(responsesDir, fileName))
     
   # code to upload to dropbox
     # rdrop2::drop_auth(rdstoken = "dtoken.RDS")
     # rdrop2::drop_upload(file = file.path(responsesDir, fileName), path = "opendrawer")#, rdrop2::drop_acc(dtoken = cred.d))
     
-    cred <- git2r::cred_token(token = "GITLAB_PAT")
-    tempPath <- tempfile(pattern="git2r-")
-    # dir.create(path)
-    # git2r::init(path)
-    # dir.create(file.path(path, responsesDir))
-    git2r::clone("https://gitlab.com/sci-ops/opendrawer.git", tempPath, credentials = cred)
+    
+    cred <- readRDS("glt2.rds")
+    # cred <- git2r::cred_token(token = GLtoken)
+    tempPath <- tempfile(pattern = "git2r-")
+    tempRepo <- git2r::clone("https://gitlab.com/ajamesgreen/opendrawerdata.git", tempPath, credentials = cred)
     # # repo <- git2r::repository(path = "../")
-    # git2r::remote_add(repo, "opendrawer", "https://gitlab.com/sci-ops/opendrawer.git")
-    # git2r::config(repo, user.name = "Shiny App", user.email = "james.green.ul@gmail.com")
+    # git2r::remote_add(repo, "opendrawer", "https://gitlab.com/ajamesgreen/opendrawerdata.git")
+    git2r::config(tempRepo, user.name = "Shiny App", user.email = "James.Green@ul.ie")
     # git2r::add(repo, path = file.path(responsesDir, fileName))
     # writeLines("bob is cool", file.path(path, "bob.txt"))
     # git2r::add(repo = ".", path = file.path(path, "bob.txt"))
-    write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(tempPath, "shiny_app", responsesDir, fileName))
-    git2r::add(repo = tempPath, path = file.path(tempPath, "shiny_app", responsesDir, fileName))
-    git2r::commit(repo = tempPath, message = paste("data declaration", fileName))
-    git2r::push(tempPath, credentials = cred)
+    write_yaml(stats::setNames(list(data), "data_declaration"), file = file.path(tempPath, "data/data", fileName))
+    git2r::add(tempRepo, path = file.path(tempPath, "data/data", fileName))
+    git2r::commit(tempRepo, message = paste("data declaration", fileName))
+    git2r::push(tempRepo, "origin", credentials = cred)
   }
   
   
