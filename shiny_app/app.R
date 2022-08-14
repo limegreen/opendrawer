@@ -250,10 +250,10 @@ server <- function(input, output, session) {
     cred <- readRDS("glt2.rds")
     # cred <- git2r::cred_token(token = GLtoken)
     tempPath <- tempfile(pattern = "git2r-")
-    tempRepo <- git2r::clone("https://gitlab.com/ajamesgreen/opendrawerdata.git", tempPath, credentials = cred)
+    tempRepo <- git2r::clone("https://gitlab.com/sci-ops/opendrawer.git", tempPath, credentials = cred)
     # # repo <- git2r::repository(path = "../")
     # git2r::remote_add(repo, "opendrawer", "https://gitlab.com/ajamesgreen/opendrawerdata.git")
-    git2r::config(tempRepo, user.name = "Shiny App", user.email = "James.Green@ul.ie")
+    # git2r::config(tempRepo, user.name = "Shiny App", user.email = "James.Green@ul.ie")
     # git2r::add(repo, path = file.path(responsesDir, fileName))
     # writeLines("bob is cool", file.path(path, "bob.txt"))
     # git2r::add(repo = ".", path = file.path(path, "bob.txt"))
@@ -261,6 +261,7 @@ server <- function(input, output, session) {
     git2r::add(tempRepo, path = file.path(tempPath, "data/data", fileName))
     git2r::commit(tempRepo, message = paste("data declaration", fileName))
     git2r::push(tempRepo, "origin", credentials = cred)
+    
   }
   
   
